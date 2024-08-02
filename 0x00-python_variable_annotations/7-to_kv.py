@@ -5,6 +5,7 @@ Module to create a tuple containing a string and the square of an integer or flo
 
 from typing import Tuple, Union
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Creates a tuple where the first element is a string and the second element is
